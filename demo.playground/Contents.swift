@@ -3,12 +3,7 @@ import UIKit
 import demo_Sources;
 
 let person1 = Person(name: "kevinchen", age: 41, address: "Los");
-
-let person2 = Person();
-person2._name = "tuyentran";
-person2._age = 24;
-person2._address = "VIET NAME";
-
+let person2 = Person(name: "tuyentran", age: 24, address: "VN");
 let student1 = Student(code: "0001", person: person1);
 let student2 = Student(code: "0002", person: person2);
 
